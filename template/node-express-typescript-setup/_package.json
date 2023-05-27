@@ -1,0 +1,17 @@
+{
+	"name": "{{name}}",
+	"description": "{{description}}",
+	"version": "{{version}}",
+	"license": "{{license}}",
+	"author": {
+		"name": "{{authorName}}",
+		"email": "{{authorEmail}}",
+		"url": "{{authorUrl}}"
+	},
+	"keywords": ["{{name}}", "{{authorName}}"],
+	"scripts": {
+		"start":"node ./dist/index.js",
+		"start:dev": "ts-node -r tsconfig-paths/register ./src/index.ts",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	}
+}

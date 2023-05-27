@@ -1,0 +1,45 @@
+{
+	"name": "project-setup",
+	"description": "CLI tool for automating project setup",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"project-setup": "index.js",
+		"setup-project": "index.js"
+	},
+	"author": {
+		"name": "Basil Aslam",
+		"email": "basilaslamnp@gmail.com",
+		"url": "example.com"
+	},
+	"keywords": [
+		"project-setup",
+		"Basil Aslam"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"start": "node index.js",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"type": "module",
+	"dependencies": {
+		"await-to-js": "^3.0.0",
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-should-cancel": "^1.0.3",
+		"cli-welcome": "^2.2.2",
+		"copy-template-dir": "^1.4.0",
+		"data-store": "^4.0.3",
+		"enquirer": "^2.3.6",
+		"execa": "^7.1.1",
+		"inquirer": "^9.2.6",
+		"meow": "^9.0.0",
+		"ora": "^6.3.1"
+	}
+}
