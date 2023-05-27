@@ -7,7 +7,7 @@ import copy from 'copy-template-dir';
 import chalk from 'chalk';
 import getPkgs from './getPkgs.js'
 import alert from 'cli-alerts'
-import { execSync } from('child_process');
+import { execSync } from'child_process';
 
 const { green: g, yellow: y, dim: d } = chalk;
 const spinner = ora({ text: '' });

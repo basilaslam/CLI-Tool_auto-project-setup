@@ -1,14 +1,14 @@
 {
-	"name": "project-setup",
+	"name": "auto-project-setup-generator",
 	"description": "CLI tool for automating project setup",
 	"version": "0.0.1",
 	"license": "UNLICENSED",
 	"bin": {
-		"project-setup": "index.js",
-		"setup-project": "index.js"
+		"project-setup": "./index.js",
+		"setup-project": "./index.js"
 	},
 	"author": {
-		"name": "Basil Aslam",
+		"name": "basilaslam",
 		"email": "basilaslamnp@gmail.com",
 		"url": "example.com"
 	},
